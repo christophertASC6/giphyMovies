@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src = "./main.js" defer></script>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = "navbar">
+        <ul>
+            <li><a href = "index.html">Search GIFS</a></li>
+            <li><a href = "gifs.html">Trending Movies</a></li>
+        </ul>
+    </div>
+    <h1 id = "title">Giphy Search</h1>
+    <form id="find-giphy" onsubmit="findGiphy()" type="submit">
+      <input id="search-txt" type="text" onfocus="this.value=''">
+      <button type="submit" >Go</button>
+    </form>
+    <div id="results"></div>
+</body>
+</html>

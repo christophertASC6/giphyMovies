@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+    font-size: 62.5%
+  }
+  
+  body {
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+    font-size: 1.8rem;
+    background-color: beige;
+  }
+  
+  input {
+    width: 400px;
+    padding: 8px 5px;
+  }
+  
+  button {
+    width: 100px;
+    padding: 8px 5px;
+  }
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar {
+    font-family: Roboto Mono;
+    font-size: 14px;
+    overflow: hidden;
+    display: block;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    align-content: center;
+    padding: 36px 36px;
+    text-decoration: none;
+    margin-top: -16px
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.44);
+}
+
+#title {
+    position: absolute;
+    top: 100px;
+    right: 65%;
+}
+
+.info {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+form {
+    margin: 20px, 0 0 50px;
+    padding-bottom: 20px;
+  }
+  
+#results {
+    margin-top: 20%;
+    display: absolute;
+    top: 250px;
+    right: 50%;
+  }
+  
+iframe {
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+  } 
+  
+#find-giphy {
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    right: 50%;
+}
